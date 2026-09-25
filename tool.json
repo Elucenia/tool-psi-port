@@ -1,0 +1,327 @@
+{
+  "tool": {
+    "id": "psi-port",
+    "title": "PSI/PORT (índice de gravidade da pneumonia)",
+    "short": "Classe de risco de Fine na pneumonia comunitária",
+    "desc": "Calcule o Pneumonia Severity Index (PSI/PORT, Fine 1997): classes I a V, mortalidade em 30 dias e local de tratamento na pneumonia adquirida na comunidade.",
+    "lead": "Classifica adultos com pneumonia adquirida na comunidade em cinco classes de risco de morte em 30 dias, a partir de 20 variáveis demográficas, clínicas, laboratoriais e radiológicas.",
+    "spec": [
+      "pneumologia",
+      "infectologia",
+      "medicina-de-emergencia",
+      "clinica-medica"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "sexo",
+        "Sexo",
+        "radio",
+        {
+          "opts": {
+            "F": "Feminino",
+            "M": "Masculino"
+          }
+        }
+      ],
+      [
+        "idade",
+        "Idade",
+        "num",
+        {
+          "min": 18,
+          "max": 110,
+          "unit": "anos",
+          "ph": "65"
+        }
+      ],
+      [
+        "casa",
+        "Mora em instituição de longa permanência (+10)",
+        "chk",
+        []
+      ],
+      [
+        "neoplasia",
+        "Neoplasia ativa ou diagnosticada no último ano (+30)",
+        "chk",
+        []
+      ],
+      [
+        "hepatica",
+        "Doença hepática (cirrose, hepatite crônica) (+20)",
+        "chk",
+        []
+      ],
+      [
+        "icc",
+        "Insuficiência cardíaca (+10)",
+        "chk",
+        []
+      ],
+      [
+        "avc",
+        "Doença cerebrovascular (+10)",
+        "chk",
+        []
+      ],
+      [
+        "renal",
+        "Doença renal crônica (+10)",
+        "chk",
+        []
+      ],
+      [
+        "confusao",
+        "Alteração do estado mental (+20)",
+        "chk",
+        []
+      ],
+      [
+        "fr",
+        "FR ≥ 30 irpm (+20)",
+        "chk",
+        []
+      ],
+      [
+        "pas",
+        "PA sistólica &lt; 90 mmHg (+20)",
+        "chk",
+        []
+      ],
+      [
+        "temp",
+        "Temperatura &lt; 35 °C ou ≥ 40 °C (+15)",
+        "chk",
+        []
+      ],
+      [
+        "fc",
+        "FC ≥ 125 bpm (+10)",
+        "chk",
+        []
+      ],
+      [
+        "ph",
+        "pH arterial &lt; 7,35 (+30)",
+        "chk",
+        []
+      ],
+      [
+        "ureia",
+        "Ureia ≥ 64 mg/dL (BUN ≥ 30 mg/dL) (+20)",
+        "chk",
+        []
+      ],
+      [
+        "sodio",
+        "Sódio &lt; 130 mEq/L (+20)",
+        "chk",
+        []
+      ],
+      [
+        "glicose",
+        "Glicose ≥ 250 mg/dL (+10)",
+        "chk",
+        []
+      ],
+      [
+        "ht",
+        "Hematócrito &lt; 30% (+10)",
+        "chk",
+        []
+      ],
+      [
+        "pao2",
+        "PaO₂ &lt; 60 mmHg ou SatO₂ &lt; 90% (+10)",
+        "chk",
+        []
+      ],
+      [
+        "derrame",
+        "Derrame pleural na radiografia (+10)",
+        "chk",
+        []
+      ]
+    ],
+    "formula": "<p><strong>Etapa 1 (classe I):</strong> idade ≤ 50 anos, sem nenhuma das 5 comorbidades (neoplasia, doença hepática, insuficiência cardíaca, cerebrovascular ou renal) e sem nenhum dos 5 achados de exame (confusão, FR ≥ 30, PAS &lt; 90, temperatura &lt; 35 ou ≥ 40 °C, FC ≥ 125).</p><p><strong>Etapa 2 (demais):</strong> pontos = idade em anos (mulheres: idade − 10) + pontos de cada item presente. Classe II ≤ 70; III 71–90; IV 91–130; V &gt; 130.</p>",
+    "table": [
+      [
+        "Classe",
+        "Pontos",
+        "Mortalidade em 30 dias",
+        "Local sugerido"
+      ],
+      [
+        "I",
+        "etapa 1",
+        "0,1–0,4%",
+        "Ambulatorial"
+      ],
+      [
+        "II",
+        "≤ 70",
+        "0,6–0,7%",
+        "Ambulatorial"
+      ],
+      [
+        "III",
+        "71–90",
+        "0,9–2,8%",
+        "Ambulatorial ou internação breve"
+      ],
+      [
+        "IV",
+        "91–130",
+        "8,2–9,3%",
+        "Internação"
+      ],
+      [
+        "V",
+        "&gt; 130",
+        "27,0–31,1%",
+        "Internação (avaliar UTI)"
+      ]
+    ],
+    "table_note": "Faixas de mortalidade das coortes de derivação e validação de Fine 1997 (MedisGroups e PORT).",
+    "tips": [
+      "Como a idade pesa muito, o PSI subestima a gravidade em jovens: hipoxemia, sepse ou impossibilidade de via oral pedem internação em qualquer classe.",
+      "A ATS/IDSA 2019 recomenda o PSI (preferido ao CURB-65) para decidir o local de tratamento, sempre associado ao julgamento clínico.",
+      "O PSI não foi feito para indicar UTI: para isso, use os critérios maiores e menores de pneumonia grave da ATS/IDSA.",
+      "Itens não medidos (gasometria, sódio, glicose) são contados como normais: em pacientes graves, colete os exames antes de fechar a classe."
+    ],
+    "sources": [
+      [
+        "Fine MJ et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. N Engl J Med, 1997.",
+        "https://doi.org/10.1056/NEJM199701233360402"
+      ],
+      [
+        "Metlay JP et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med, 2019.",
+        "https://doi.org/10.1164/rccm.201908-1581ST"
+      ]
+    ],
+    "cases": [
+      [
+        "Homem de 40 anos sem achados: classe I",
+        {
+          "sexo": "M",
+          "idade": 40
+        },
+        {
+          "raw": {
+            "cls": 1
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        {
+          "sexo": "M",
+          "idade": 50
+        },
+        {
+          "raw": {
+            "cls": 1
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        {
+          "sexo": "F",
+          "idade": 70,
+          "icc": true
+        },
+        {
+          "raw": {
+            "score": 70,
+            "cls": 2
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Homem de 72 anos com derrame pleural: 82, classe III",
+        {
+          "sexo": "M",
+          "idade": 72,
+          "derrame": true
+        },
+        {
+          "raw": {
+            "score": 82,
+            "cls": 3
+          },
+          "level": "mid"
+        }
+      ],
+      [
+        "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        {
+          "sexo": "M",
+          "idade": 75,
+          "neoplasia": true,
+          "ureia": true
+        },
+        {
+          "raw": {
+            "score": 125,
+            "cls": 4
+          },
+          "level": "high"
+        }
+      ],
+      [
+        "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        {
+          "sexo": "M",
+          "idade": 80,
+          "casa": true,
+          "confusao": true,
+          "ph": true
+        },
+        {
+          "raw": {
+            "score": 140,
+            "cls": 5
+          },
+          "level": "high"
+        }
+      ]
+    ],
+    "batch": "torax-vascular",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cardiotoracica",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/torax-vascular.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 6,
+      "passed": 6,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/torax-vascular.php",
+    "sha256": "e99bbd1938580ff9b46e0252fdd8cb72e87c63869f934005b8ef6d807ce8b6e2",
+    "bytes": 91275
+  },
+  "clinicalValidation": "not-performed"
+}

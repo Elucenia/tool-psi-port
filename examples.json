@@ -1,0 +1,128 @@
+[
+  {
+    "label": "Homem de 40 anos sem achados: classe I",
+    "input": {
+      "sexo": "M",
+      "idade": 40
+    },
+    "expected": {
+      "raw": {
+        "cls": 1
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "sexo": "M",
+      "idade": 40
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+    "input": {
+      "sexo": "M",
+      "idade": 50
+    },
+    "expected": {
+      "raw": {
+        "cls": 1
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "sexo": "M",
+      "idade": 50
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+    "input": {
+      "sexo": "F",
+      "idade": 70,
+      "icc": true
+    },
+    "expected": {
+      "raw": {
+        "score": 70,
+        "cls": 2
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "sexo": "F",
+      "idade": 70,
+      "icc": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Homem de 72 anos com derrame pleural: 82, classe III",
+    "input": {
+      "sexo": "M",
+      "idade": 72,
+      "derrame": true
+    },
+    "expected": {
+      "raw": {
+        "score": 82,
+        "cls": 3
+      },
+      "level": "mid"
+    },
+    "originalInput": {
+      "sexo": "M",
+      "idade": 72,
+      "derrame": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+    "input": {
+      "sexo": "M",
+      "idade": 75,
+      "neoplasia": true,
+      "ureia": true
+    },
+    "expected": {
+      "raw": {
+        "score": 125,
+        "cls": 4
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "sexo": "M",
+      "idade": 75,
+      "neoplasia": true,
+      "ureia": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+    "input": {
+      "sexo": "M",
+      "idade": 80,
+      "casa": true,
+      "confusao": true,
+      "ph": true
+    },
+    "expected": {
+      "raw": {
+        "score": 140,
+        "cls": 5
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "sexo": "M",
+      "idade": 80,
+      "casa": true,
+      "confusao": true,
+      "ph": true
+    },
+    "expandedZeroOptions": []
+  }
+]
