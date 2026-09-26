@@ -1,11 +1,11 @@
-/* tool-psi-port · Elucenia · https://github.com/Elucenia/tool-psi-port
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-psi-port · ELUCENIA · https://github.com/Elucenia/tool-psi-port
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"psi-port","title":"PSI/PORT (índice de gravidade da pneumonia)","fields":[["sexo","Sexo","radio",{"opts":{"F":"Feminino","M":"Masculino"}}],["idade","Idade","num",{"min":18,"max":110,"unit":"anos","ph":"65"}],["casa","Mora em instituição de longa permanência (+10)","chk",[]],["neoplasia","Neoplasia ativa ou diagnosticada no último ano (+30)","chk",[]],["hepatica","Doença hepática (cirrose, hepatite crônica) (+20)","chk",[]],["icc","Insuficiência cardíaca (+10)","chk",[]],["avc","Doença cerebrovascular (+10)","chk",[]],["renal","Doença renal crônica (+10)","chk",[]],["confusao","Alteração do estado mental (+20)","chk",[]],["fr","FR ≥ 30 irpm (+20)","chk",[]],["pas","PA sistólica &lt; 90 mmHg (+20)","chk",[]],["temp","Temperatura &lt; 35 °C ou ≥ 40 °C (+15)","chk",[]],["fc","FC ≥ 125 bpm (+10)","chk",[]],["ph","pH arterial &lt; 7,35 (+30)","chk",[]],["ureia","Ureia ≥ 64 mg/dL (BUN ≥ 30 mg/dL) (+20)","chk",[]],["sodio","Sódio &lt; 130 mEq/L (+20)","chk",[]],["glicose","Glicose ≥ 250 mg/dL (+10)","chk",[]],["ht","Hematócrito &lt; 30% (+10)","chk",[]],["pao2","PaO₂ &lt; 60 mmHg ou SatO₂ &lt; 90% (+10)","chk",[]],["derrame","Derrame pleural na radiografia (+10)","chk",[]]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
