@@ -1,0 +1,142 @@
+<!-- ELUCENIA technical documentation · psi-port · ja · no clinical/professional/rights approval -->
+
+# PSI/PORT（肺炎重症度指数）
+
+[条件・出典・許諾](https://elucenia.org/ja/tools/psi-port)
+
+## 使い方
+
+ポータルでツールを使用するか、ローカルHTTPサーバー経由でindex.htmlを開いてください。言語を選択し、項目を入力して計算してください。
+
+## 入力項目と単位
+
+### 性別
+
+`sexo`
+
+- `F` — 女性
+- `M` — 男性
+
+### 年齢
+
+`idade`
+
+年 · 範囲: 18–110
+
+### 長期療養施設に居住（+10）
+
+`casa`
+
+### 活動性悪性腫瘍または過去1年の診断（+30）
+
+`neoplasia`
+
+### 肝疾患（肝硬変、慢性肝炎）（+20）
+
+`hepatica`
+
+### 心不全（+10）
+
+`icc`
+
+### 脳血管疾患（+10）
+
+`avc`
+
+### 慢性腎疾患（+10）
+
+`renal`
+
+### 精神状態の変化（+20）
+
+`confusao`
+
+### 呼吸数 ≥ 30 irpm (+20)
+
+`fr`
+
+### 収縮期血圧 \< 90 mmHg (+20)
+
+`pas`
+
+### 体温 \< 35 °Cまたは ≥ 40 °C（+15）
+
+`temp`
+
+### 心拍数 ≥ 125 bpm (+10)
+
+`fc`
+
+### 動脈血pH \< 7.35 (+30)
+
+`ph`
+
+### 尿素 ≥ 64 mg/dL（BUN ≥ 30 mg/dL）（+20）
+
+`ureia`
+
+### ナトリウム \< 130 mEq/L (+20)
+
+`sodio`
+
+### グルコース ≥ 250 mg/dL (+10)
+
+`glicose`
+
+### ヘマトクリット \< 30% (+10)
+
+`ht`
+
+### PaO₂ \< 60 mmHgまたは酸素飽和度 \< 90%（+10）
+
+`pao2`
+
+### X線で胸水（+10）
+
+`derrame`
+
+## 方法の版
+
+PSI/PORT/Fine 1997：I分類規則と段階2のI～V得点、CURB-65とは別
+
+## 記載された計算式
+
+段階1（I分類）： 年齢（歳） ≤ 50; 併存症なし (5: 腫瘍、肝疾患、心不全、脳血管疾患、腎疾患); 診察異常なし (5: 意識混乱、呼吸数≥30、収縮期血圧\<90、体温\<35または≥40 °C、心拍数≥125).
+
+段階2（その他）：点数=年齢（女性：年齢−10）+該当項目点、分類： II ≤ 70; III 71–90; IV 91–130; V \> 130.
+
+## 限界・対象集団
+
+PSI/PORTは、成人の市中肺炎と30日以内の死亡リスクについて開発されました。低いクラスはリスクがないことや自動的な退院判断を意味しません。適格基準、肺炎の定義、外来管理の条件は、臨床プロトコルに従う必要があります。
+
+## 参考文献
+
+- [Fine MJ et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. N Engl J Med, 1997.](https://doi.org/10.1056/NEJM199701233360402)
+
+- [Metlay JP et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med, 2019.](https://doi.org/10.1164/rccm.201908-1581ST)
+
+## 技術テストの再現
+
+このリポジトリのルートディレクトリでnode test.cjsを実行すると、記録された合成ケースを再実行できます。元の入力、期待結果、許容誤差は保持されています。技術テストは臨床的検証を意味しません。
+
+```sh
+node test.cjs
+```
+
+tool.jsonには出典、版、確認範囲が記録されています。examples.jsonには合成入力と期待結果が保持され、results.jsonには実際に得られた結果が記録されています。
+
+[記録・参考文献](../tool.json) · [JavaScriptコード](../calculator.js) · [参照ケース](../examples.json) · [results.json](../results.json)
+
+## 確認状況と使用条件
+
+独立した臨床レビューは実施されていません。
+
+このインターフェースは独自に作成した翻訳であり、公式版や認証済みの版ではありません。独立した臨床レビュー、専門家による言語レビュー、評価尺度等の権利許諾の確認は実施されていません。
+
+式または分類の結果です。解釈、対応、適用可能性は専門家による評価と選択した出典に依存します。
+
+## ライセンスと帰属表示
+
+Apache-2.0はELUCENIAのコードにのみ適用されます。評価尺度等、出版物、翻訳、データの権利は、それぞれの権利者に帰属します。LICENSEとNOTICEを保持してください。
+
+ELUCENIA · Felipe Guedes · Copyright © 2026

@@ -5,13 +5,13 @@
     "short": "Classe de risco de Fine na pneumonia comunitária",
     "desc": "Calcule o Pneumonia Severity Index (PSI/PORT, Fine 1997): classes I a V, mortalidade em 30 dias e local de tratamento na pneumonia adquirida na comunidade.",
     "lead": "Classifica adultos com pneumonia adquirida na comunidade em cinco classes de risco de morte em 30 dias, a partir de 20 variáveis demográficas, clínicas, laboratoriais e radiológicas.",
+    "kind": "Calculadora",
     "spec": [
       "pneumologia",
       "infectologia",
       "medicina-de-emergencia",
       "clinica-medica"
     ],
-    "tier": 1,
     "fields": [
       [
         "sexo",
@@ -39,157 +39,112 @@
         "casa",
         "Mora em instituição de longa permanência (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "neoplasia",
         "Neoplasia ativa ou diagnosticada no último ano (+30)",
         "chk",
-        []
+        {}
       ],
       [
         "hepatica",
         "Doença hepática (cirrose, hepatite crônica) (+20)",
         "chk",
-        []
+        {}
       ],
       [
         "icc",
         "Insuficiência cardíaca (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "avc",
         "Doença cerebrovascular (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "renal",
         "Doença renal crônica (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "confusao",
         "Alteração do estado mental (+20)",
         "chk",
-        []
+        {}
       ],
       [
         "fr",
         "FR ≥ 30 irpm (+20)",
         "chk",
-        []
+        {}
       ],
       [
         "pas",
         "PA sistólica &lt; 90 mmHg (+20)",
         "chk",
-        []
+        {}
       ],
       [
         "temp",
         "Temperatura &lt; 35 °C ou ≥ 40 °C (+15)",
         "chk",
-        []
+        {}
       ],
       [
         "fc",
         "FC ≥ 125 bpm (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "ph",
         "pH arterial &lt; 7,35 (+30)",
         "chk",
-        []
+        {}
       ],
       [
         "ureia",
         "Ureia ≥ 64 mg/dL (BUN ≥ 30 mg/dL) (+20)",
         "chk",
-        []
+        {}
       ],
       [
         "sodio",
         "Sódio &lt; 130 mEq/L (+20)",
         "chk",
-        []
+        {}
       ],
       [
         "glicose",
         "Glicose ≥ 250 mg/dL (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "ht",
         "Hematócrito &lt; 30% (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "pao2",
         "PaO₂ &lt; 60 mmHg ou SatO₂ &lt; 90% (+10)",
         "chk",
-        []
+        {}
       ],
       [
         "derrame",
         "Derrame pleural na radiografia (+10)",
         "chk",
-        []
+        {}
       ]
     ],
     "formula": "<p><strong>Etapa 1 (classe I):</strong> idade ≤ 50 anos, sem nenhuma das 5 comorbidades (neoplasia, doença hepática, insuficiência cardíaca, cerebrovascular ou renal) e sem nenhum dos 5 achados de exame (confusão, FR ≥ 30, PAS &lt; 90, temperatura &lt; 35 ou ≥ 40 °C, FC ≥ 125).</p><p><strong>Etapa 2 (demais):</strong> pontos = idade em anos (mulheres: idade − 10) + pontos de cada item presente. Classe II ≤ 70; III 71–90; IV 91–130; V &gt; 130.</p>",
-    "table": [
-      [
-        "Classe",
-        "Pontos",
-        "Mortalidade em 30 dias",
-        "Local sugerido"
-      ],
-      [
-        "I",
-        "etapa 1",
-        "0,1–0,4%",
-        "Ambulatorial"
-      ],
-      [
-        "II",
-        "≤ 70",
-        "0,6–0,7%",
-        "Ambulatorial"
-      ],
-      [
-        "III",
-        "71–90",
-        "0,9–2,8%",
-        "Ambulatorial ou internação breve"
-      ],
-      [
-        "IV",
-        "91–130",
-        "8,2–9,3%",
-        "Internação"
-      ],
-      [
-        "V",
-        "&gt; 130",
-        "27,0–31,1%",
-        "Internação (avaliar UTI)"
-      ]
-    ],
-    "table_note": "Faixas de mortalidade das coortes de derivação e validação de Fine 1997 (MedisGroups e PORT).",
-    "tips": [
-      "Como a idade pesa muito, o PSI subestima a gravidade em jovens: hipoxemia, sepse ou impossibilidade de via oral pedem internação em qualquer classe.",
-      "A ATS/IDSA 2019 recomenda o PSI (preferido ao CURB-65) para decidir o local de tratamento, sempre associado ao julgamento clínico.",
-      "O PSI não foi feito para indicar UTI: para isso, use os critérios maiores e menores de pneumonia grave da ATS/IDSA.",
-      "Itens não medidos (gasometria, sódio, glicose) são contados como normais: em pacientes graves, colete os exames antes de fechar a classe."
-    ],
     "sources": [
       [
         "Fine MJ et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. N Engl J Med, 1997.",
@@ -291,9 +246,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -302,17 +254,350 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:47:03.432Z",
+      "total": 3738,
+      "passed": 3738,
+      "sourceRowCount": 3738,
+      "uniqueApiInputCount": 3738,
+      "scope": "StepI eleven source predicates plus assigned Table2 point sum and classII<=70/III71–90/IV91–130/V>130. No treatment/outpatient decision, pneumonia diagnosis or factual assessment approval.",
+      "caseStorage": {
+        "file": "independent-source-cases.json",
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "sha256": "b6464a703410d686aaeb521d9904108ef8bd2a15c171883cd67287f683a0d600",
+        "total": 3738,
+        "uniqueApiInputCount": 3738,
+        "bankRowCount": 3738
+      },
+      "sourceExpectation": {
+        "file": "reports/review-20261003/source33-accepted-scope-expectations.json",
+        "sha256": "c51a745f432eef23771c7e52dea4c8b82f501ce54d3bfe640e449e04883bc907"
+      },
+      "originalEvidence": {
+        "file": "reports/review-20261003/six-primary-own-source-check-final33.json",
+        "sha256": "f41286e6919665d7480d19067e0fa325292e1753677e419375b69a9739843521"
+      },
+      "sourceRead": {
+        "file": "reports/review-20261003/six-primary-own-observations-final33.json",
+        "sha256": "f4047a76d52e04932e39b336d9a395c949640cb519103160ebe5241fd4ad67a1"
+      },
+      "independentPeer": {
+        "status": "completed",
+        "kind": "independent-technical-packaging-and-replay",
+        "file": "reports/review-20261003/source33-bank-packaging-root-peer-r2.json",
+        "sha256": "5201eb9c2655a20545a1e836e61bb26045b368c4dfc6f690a9dde3b63bdc398e",
+        "checks": 568121,
+        "scope": "Root independent technical packaging/projection peer, against the source author pre-engine expectations. Not a second blind primary-source derivation or clinical/professional-language/rights approval. Exact source33 exclusions retained; no tolerance relaxation.",
+        "secondBlindPrimarySourceDerivation": false,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed"
+      },
+      "numericPolicy": {
+        "acceptedProjection": "Strict independently frozen accepted integer/count/class projection; no float tolerance"
+      },
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "PSI/PORT/Fine 1997:regra classe I efase 2 pontuação I–V; sem CURB 65",
+    "implementationVersion": "psi-port@native-2026-10-03+8bf194e38b89",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/8995086/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Etapa 1 (classe I): idade ≤ 50 anos, sem nenhuma das 5 comorbidades (neoplasia, doença hepática, insuficiência cardíaca, cerebrovascular ou renal) e sem nenhum dos 5 achados de exame (confusão, FR ≥ 30, PAS < 90, temperatura < 35 ou ≥ 40 °C, FC ≥ 125). Etapa 2 (demais): pontos = idade em anos (mulheres: idade − 10) + pontos de cada item presente. Classe II ≤ 70; III 71–90; IV 91–130; V > 130.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "sexo",
+            "label": "Sexo",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "F": "Feminino",
+              "M": "Masculino"
+            }
+          },
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "num",
+            "min": 18,
+            "max": 110,
+            "unit": "anos",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "casa",
+            "label": "Mora em instituição de longa permanência (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "neoplasia",
+            "label": "Neoplasia ativa ou diagnosticada no último ano (+30)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "hepatica",
+            "label": "Doença hepática (cirrose, hepatite crônica) (+20)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "icc",
+            "label": "Insuficiência cardíaca (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "avc",
+            "label": "Doença cerebrovascular (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "renal",
+            "label": "Doença renal crônica (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "confusao",
+            "label": "Alteração do estado mental (+20)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fr",
+            "label": "FR ≥ 30 irpm (+20)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "pas",
+            "label": "PA sistólica &lt; 90 mmHg (+20)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "temp",
+            "label": "Temperatura &lt; 35 °C ou ≥ 40 °C (+15)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fc",
+            "label": "FC ≥ 125 bpm (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "ph",
+            "label": "pH arterial &lt; 7,35 (+30)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "ureia",
+            "label": "Ureia ≥ 64 mg/dL (BUN ≥ 30 mg/dL) (+20)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "sodio",
+            "label": "Sódio &lt; 130 mEq/L (+20)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "glicose",
+            "label": "Glicose ≥ 250 mg/dL (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "ht",
+            "label": "Hematócrito &lt; 30% (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "pao2",
+            "label": "PaO₂ &lt; 60 mmHg ou SatO₂ &lt; 90% (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "derrame",
+            "label": "Derrame pleural na radiografia (+10)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "7d2311887df11116de7b16c899e4723ac58b3f2cbf66ac71e6e9df488ea5cc7a"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Fine MJ et al. A prediction rule to identify low-risk patients with community-acquired pneumonia. N Engl J Med, 1997.",
+          "url": "https://doi.org/10.1056/NEJM199701233360402",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A prediction rule to identify low-risk patients with community-acquired pneumonia.",
+            "year": "1997",
+            "firstPublicationDate": "1997-01-01",
+            "doi": "10.1056/nejm199701233360402",
+            "pmid": "8995086",
+            "journal": "The New England journal of medicine",
+            "authors": "Fine MJ, Auble TE, Yealy DM, Hanusa BH, Weissfeld LA, Singer DE, Coley CM, Marrie TJ, Kapoor WN."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/8995086/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "d8ce38abe6333bcdba73cb3c1b943f941a00235fd54ed6a1a8efe673a6aa6c30",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Metlay JP et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med, 2019.",
+          "url": "https://doi.org/10.1164/rccm.201908-1581ST",
+          "class": "primary-publication-full-text-retrieved",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": true,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America.",
+            "year": "2019",
+            "firstPublicationDate": "2019-10-01",
+            "doi": "10.1164/rccm.201908-1581st",
+            "pmid": "31573350",
+            "pmcid": "PMC6812437",
+            "journal": "American journal of respiratory and critical care medicine",
+            "authors": "Metlay JP, Waterer GW, Long AC, Anzueto A, Brozek J, Crothers K, Cooley LA, Dean NC, Fine MJ, Flanders SA, Griffin MR, Metersky ML, Musher DM, Restrepo MI, Whitney CG."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6812437/",
+          "abstractAvailable": true,
+          "fullTextSha256": "cf6cf99dec6a4a5d3dc56b8ab0a8536f32fcf74cdf166cd71565e6669ed7369e",
+          "abstractSha256": "1f27187815393b803893b8ca62727fe34b608cb10a961ea9c843060fd543ad24",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:47:03.432Z",
+        "total": 3738,
+        "passed": 3738,
+        "sourceRowCount": 3738,
+        "uniqueApiInputCount": 3738,
+        "scope": "StepI eleven source predicates plus assigned Table2 point sum and classII<=70/III71–90/IV91–130/V>130. No treatment/outpatient decision, pneumonia diagnosis or factual assessment approval.",
+        "caseStorage": {
+          "file": "independent-source-cases.json",
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "sha256": "b6464a703410d686aaeb521d9904108ef8bd2a15c171883cd67287f683a0d600",
+          "total": 3738,
+          "uniqueApiInputCount": 3738,
+          "bankRowCount": 3738
+        },
+        "sourceExpectation": {
+          "file": "reports/review-20261003/source33-accepted-scope-expectations.json",
+          "sha256": "c51a745f432eef23771c7e52dea4c8b82f501ce54d3bfe640e449e04883bc907"
+        },
+        "originalEvidence": {
+          "file": "reports/review-20261003/six-primary-own-source-check-final33.json",
+          "sha256": "f41286e6919665d7480d19067e0fa325292e1753677e419375b69a9739843521"
+        },
+        "sourceRead": {
+          "file": "reports/review-20261003/six-primary-own-observations-final33.json",
+          "sha256": "f4047a76d52e04932e39b336d9a395c949640cb519103160ebe5241fd4ad67a1"
+        },
+        "independentPeer": {
+          "status": "completed",
+          "kind": "independent-technical-packaging-and-replay",
+          "file": "reports/review-20261003/source33-bank-packaging-root-peer-r2.json",
+          "sha256": "5201eb9c2655a20545a1e836e61bb26045b368c4dfc6f690a9dde3b63bdc398e",
+          "checks": 568121,
+          "scope": "Root independent technical packaging/projection peer, against the source author pre-engine expectations. Not a second blind primary-source derivation or clinical/professional-language/rights approval. Exact source33 exclusions retained; no tolerance relaxation.",
+          "secondBlindPrimarySourceDerivation": false,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed"
+        },
+        "numericPolicy": {
+          "acceptedProjection": "Strict independently frozen accepted integer/count/class projection; no float tolerance"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a"
+    },
+    "limits": "O PSI/PORT foi desenvolvido para adultos com pneumonia adquirida na comunidade e risco de morte em 30 dias. Classes baixas não significam ausência de risco nem decisão automática de alta. Critérios de elegibilidade, definição de pneumonia e condições para manejo ambulatorial devem acompanhar o protocolo clínico.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.110Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não contém todas as exclusões, regra de classe I ou todos os 20 itens. Diretriz ATS/IDSA 2019 é fonte distinta."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/psi-port/calculator.js",
+    "bytes": 6497,
+    "sha256": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "df604c98277945ad0e8c54ccfdc78061a0a95dc7fb18811b22beb9010c27d8c0",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 3,
+      "sha256": "279d587647e969e74064bcf5b99b36c120a16ad93a6592d6b82d53b82865403c",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 3,
+      "sha256": "279d587647e969e74064bcf5b99b36c120a16ad93a6592d6b82d53b82865403c",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
