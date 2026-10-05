@@ -1,0 +1,1991 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "psi-port",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/psi-port/calculator.js",
+    "sha256": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a",
+    "bytes": 6497
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 6,
+    "replayed": 6,
+    "passed": 6,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "psi-port",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Homem de 40 anos sem achados: classe I",
+      "originalInput": {
+        "sexo": "M",
+        "idade": 40
+      },
+      "input": {
+        "sexo": "M",
+        "idade": 40,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "amendments": [
+        {
+          "field": "casa",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "neoplasia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "hepatica",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "icc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "avc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "renal",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "confusao",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fr",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pas",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "temp",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ph",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ureia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "sodio",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "glicose",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ht",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pao2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "derrame",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "cls": 1
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "Classe I",
+          "sem pontuação (critérios da classe I)"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 0,
+          "cls": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "sexo": "M",
+            "idade": 40,
+            "casa": false,
+            "neoplasia": false,
+            "hepatica": false,
+            "icc": false,
+            "avc": false,
+            "renal": false,
+            "confusao": false,
+            "fr": false,
+            "pas": false,
+            "temp": false,
+            "fc": false,
+            "ph": false,
+            "ureia": false,
+            "sodio": false,
+            "glicose": false,
+            "ht": false,
+            "pao2": false,
+            "derrame": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+          "startedAt": "2026-10-05T17:39:29.051Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "psi-port",
+              "main": [
+                "Classe I",
+                "sem pontuação (critérios da classe I)"
+              ],
+              "label": "PSI/PORT",
+              "raw": {
+                "score": 0,
+                "cls": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "76edab7a79568bda690bfd50a32f3e5eb1dc2c0112869d2a7f52c4fbbc8b21a2",
+          "bytes": 173,
+          "elapsedMs": 3.5984000000171363
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "startedAt": "2026-10-05T17:39:29.051Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "psi-port",
+            "main": [
+              "Classe I",
+              "sem pontuação (critérios da classe I)"
+            ],
+            "label": "PSI/PORT",
+            "raw": {
+              "score": 0,
+              "cls": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "76edab7a79568bda690bfd50a32f3e5eb1dc2c0112869d2a7f52c4fbbc8b21a2",
+        "bytes": 173,
+        "elapsedMs": 3.5984000000171363
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.cls",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cls",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Classe I",
+            "obtained": "Classe I",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "sem pontuação (critérios da classe I)",
+            "obtained": "sem pontuação (critérios da classe I)",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "psi-port",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+      "originalInput": {
+        "sexo": "M",
+        "idade": 50
+      },
+      "input": {
+        "sexo": "M",
+        "idade": 50,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "amendments": [
+        {
+          "field": "casa",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "neoplasia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "hepatica",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "icc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "avc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "renal",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "confusao",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fr",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pas",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "temp",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ph",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ureia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "sodio",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "glicose",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ht",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pao2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "derrame",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "cls": 1
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "Classe I",
+          "sem pontuação (critérios da classe I)"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 0,
+          "cls": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "sexo": "M",
+            "idade": 50,
+            "casa": false,
+            "neoplasia": false,
+            "hepatica": false,
+            "icc": false,
+            "avc": false,
+            "renal": false,
+            "confusao": false,
+            "fr": false,
+            "pas": false,
+            "temp": false,
+            "fc": false,
+            "ph": false,
+            "ureia": false,
+            "sodio": false,
+            "glicose": false,
+            "ht": false,
+            "pao2": false,
+            "derrame": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+          "startedAt": "2026-10-05T17:39:29.350Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "psi-port",
+              "main": [
+                "Classe I",
+                "sem pontuação (critérios da classe I)"
+              ],
+              "label": "PSI/PORT",
+              "raw": {
+                "score": 0,
+                "cls": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "76edab7a79568bda690bfd50a32f3e5eb1dc2c0112869d2a7f52c4fbbc8b21a2",
+          "bytes": 173,
+          "elapsedMs": 3.8353000000061
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "startedAt": "2026-10-05T17:39:29.350Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "psi-port",
+            "main": [
+              "Classe I",
+              "sem pontuação (critérios da classe I)"
+            ],
+            "label": "PSI/PORT",
+            "raw": {
+              "score": 0,
+              "cls": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "76edab7a79568bda690bfd50a32f3e5eb1dc2c0112869d2a7f52c4fbbc8b21a2",
+        "bytes": 173,
+        "elapsedMs": 3.8353000000061
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.cls",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cls",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Classe I",
+            "obtained": "Classe I",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "sem pontuação (critérios da classe I)",
+            "obtained": "sem pontuação (critérios da classe I)",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "psi-port",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+      "originalInput": {
+        "sexo": "F",
+        "idade": 70,
+        "icc": true
+      },
+      "input": {
+        "sexo": "F",
+        "idade": 70,
+        "icc": true,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "amendments": [
+        {
+          "field": "casa",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "neoplasia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "hepatica",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "avc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "renal",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "confusao",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fr",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pas",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "temp",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ph",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ureia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "sodio",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "glicose",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ht",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pao2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "derrame",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 70,
+          "cls": 2
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "Classe II",
+          "70 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 70,
+          "cls": 2
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "sexo": "F",
+            "idade": 70,
+            "icc": true,
+            "casa": false,
+            "neoplasia": false,
+            "hepatica": false,
+            "avc": false,
+            "renal": false,
+            "confusao": false,
+            "fr": false,
+            "pas": false,
+            "temp": false,
+            "fc": false,
+            "ph": false,
+            "ureia": false,
+            "sodio": false,
+            "glicose": false,
+            "ht": false,
+            "pao2": false,
+            "derrame": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+          "startedAt": "2026-10-05T17:39:29.662Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "psi-port",
+              "main": [
+                "Classe II",
+                "70 pontos"
+              ],
+              "label": "PSI/PORT",
+              "raw": {
+                "score": 70,
+                "cls": 2
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "23c72744cddf53fe1663751452247416202448d279b4e58a2cf873f6eed9b641",
+          "bytes": 144,
+          "elapsedMs": 7.174800000007963
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "startedAt": "2026-10-05T17:39:29.662Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "psi-port",
+            "main": [
+              "Classe II",
+              "70 pontos"
+            ],
+            "label": "PSI/PORT",
+            "raw": {
+              "score": 70,
+              "cls": 2
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "23c72744cddf53fe1663751452247416202448d279b4e58a2cf873f6eed9b641",
+        "bytes": 144,
+        "elapsedMs": 7.174800000007963
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 70,
+            "obtained": 70,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.cls",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 70,
+            "obtained": 70,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cls",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Classe II",
+            "obtained": "Classe II",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "70 pontos",
+            "obtained": "70 pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "psi-port",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+      "originalInput": {
+        "sexo": "M",
+        "idade": 72,
+        "derrame": true
+      },
+      "input": {
+        "sexo": "M",
+        "idade": 72,
+        "derrame": true,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false
+      },
+      "amendments": [
+        {
+          "field": "casa",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "neoplasia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "hepatica",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "icc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "avc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "renal",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "confusao",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fr",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pas",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "temp",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ph",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ureia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "sodio",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "glicose",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ht",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pao2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 82,
+          "cls": 3
+        },
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "Classe III",
+          "82 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 82,
+          "cls": 3
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "sexo": "M",
+            "idade": 72,
+            "derrame": true,
+            "casa": false,
+            "neoplasia": false,
+            "hepatica": false,
+            "icc": false,
+            "avc": false,
+            "renal": false,
+            "confusao": false,
+            "fr": false,
+            "pas": false,
+            "temp": false,
+            "fc": false,
+            "ph": false,
+            "ureia": false,
+            "sodio": false,
+            "glicose": false,
+            "ht": false,
+            "pao2": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+          "startedAt": "2026-10-05T17:39:29.975Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "psi-port",
+              "main": [
+                "Classe III",
+                "82 pontos"
+              ],
+              "label": "PSI/PORT",
+              "raw": {
+                "score": 82,
+                "cls": 3
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "12320a071a504e136b3a9b1f5b4d7c293631202e33fda4a89d765bfe27ca26c0",
+          "bytes": 145,
+          "elapsedMs": 2.732300000003306
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "startedAt": "2026-10-05T17:39:29.975Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "psi-port",
+            "main": [
+              "Classe III",
+              "82 pontos"
+            ],
+            "label": "PSI/PORT",
+            "raw": {
+              "score": 82,
+              "cls": 3
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "12320a071a504e136b3a9b1f5b4d7c293631202e33fda4a89d765bfe27ca26c0",
+        "bytes": 145,
+        "elapsedMs": 2.732300000003306
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 82,
+            "obtained": 82,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.cls",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 82,
+            "obtained": 82,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cls",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Classe III",
+            "obtained": "Classe III",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "82 pontos",
+            "obtained": "82 pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "psi-port",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+      "originalInput": {
+        "sexo": "M",
+        "idade": 75,
+        "neoplasia": true,
+        "ureia": true
+      },
+      "input": {
+        "sexo": "M",
+        "idade": 75,
+        "neoplasia": true,
+        "ureia": true,
+        "casa": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "amendments": [
+        {
+          "field": "casa",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "hepatica",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "icc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "avc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "renal",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "confusao",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fr",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pas",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "temp",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ph",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "sodio",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "glicose",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ht",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pao2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "derrame",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 125,
+          "cls": 4
+        },
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "Classe IV",
+          "125 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 125,
+          "cls": 4
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "sexo": "M",
+            "idade": 75,
+            "neoplasia": true,
+            "ureia": true,
+            "casa": false,
+            "hepatica": false,
+            "icc": false,
+            "avc": false,
+            "renal": false,
+            "confusao": false,
+            "fr": false,
+            "pas": false,
+            "temp": false,
+            "fc": false,
+            "ph": false,
+            "sodio": false,
+            "glicose": false,
+            "ht": false,
+            "pao2": false,
+            "derrame": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+          "startedAt": "2026-10-05T17:39:30.290Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "psi-port",
+              "main": [
+                "Classe IV",
+                "125 pontos"
+              ],
+              "label": "PSI/PORT",
+              "raw": {
+                "score": 125,
+                "cls": 4
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "4da4ea0b1d03151ecf1a6a3f7d0652e65dd92dd147b8b75aa27606c8fb2e7cf3",
+          "bytes": 146,
+          "elapsedMs": 5.9443000000028405
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "startedAt": "2026-10-05T17:39:30.290Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "psi-port",
+            "main": [
+              "Classe IV",
+              "125 pontos"
+            ],
+            "label": "PSI/PORT",
+            "raw": {
+              "score": 125,
+              "cls": 4
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "4da4ea0b1d03151ecf1a6a3f7d0652e65dd92dd147b8b75aa27606c8fb2e7cf3",
+        "bytes": 146,
+        "elapsedMs": 5.9443000000028405
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 125,
+            "obtained": 125,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.cls",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 125,
+            "obtained": 125,
+            "tolerance": 1.25e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cls",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Classe IV",
+            "obtained": "Classe IV",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "125 pontos",
+            "obtained": "125 pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "psi-port",
+      "kind": "native-source-reference",
+      "index": 5,
+      "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+      "originalInput": {
+        "sexo": "M",
+        "idade": 80,
+        "casa": true,
+        "confusao": true,
+        "ph": true
+      },
+      "input": {
+        "sexo": "M",
+        "idade": 80,
+        "casa": true,
+        "confusao": true,
+        "ph": true,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "amendments": [
+        {
+          "field": "neoplasia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "hepatica",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "icc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "avc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "renal",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fr",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pas",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "temp",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "fc",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ureia",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "sodio",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "glicose",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "ht",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "pao2",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        },
+        {
+          "field": "derrame",
+          "kind": "recorded-implicit-negative-materialized",
+          "value": false
+        }
+      ],
+      "expected": {
+        "raw": {
+          "score": 140,
+          "cls": 5
+        },
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "Classe V",
+          "140 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 140,
+          "cls": 5
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "sexo": "M",
+            "idade": 80,
+            "casa": true,
+            "confusao": true,
+            "ph": true,
+            "neoplasia": false,
+            "hepatica": false,
+            "icc": false,
+            "avc": false,
+            "renal": false,
+            "fr": false,
+            "pas": false,
+            "temp": false,
+            "fc": false,
+            "ureia": false,
+            "sodio": false,
+            "glicose": false,
+            "ht": false,
+            "pao2": false,
+            "derrame": false
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+          "startedAt": "2026-10-05T17:39:30.603Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "psi-port",
+              "main": [
+                "Classe V",
+                "140 pontos"
+              ],
+              "label": "PSI/PORT",
+              "raw": {
+                "score": 140,
+                "cls": 5
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "cef1ae75cc7daaa77415839261607a6e7be7cfbccddb0dafc71165cbdb242e95",
+          "bytes": 145,
+          "elapsedMs": 3.074399999983143
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/psi-port/calculate",
+        "startedAt": "2026-10-05T17:39:30.603Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "psi-port",
+            "main": [
+              "Classe V",
+              "140 pontos"
+            ],
+            "label": "PSI/PORT",
+            "raw": {
+              "score": 140,
+              "cls": 5
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "cef1ae75cc7daaa77415839261607a6e7be7cfbccddb0dafc71165cbdb242e95",
+        "bytes": 145,
+        "elapsedMs": 3.074399999983143
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 140,
+            "obtained": 140,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.cls",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 140,
+            "obtained": 140,
+            "tolerance": 1.4e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cls",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "Classe V",
+            "obtained": "Classe V",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "140 pontos",
+            "obtained": "140 pontos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
