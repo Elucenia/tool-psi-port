@@ -140,3 +140,75 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Classe I: mortalità a 30 giorni dallo 0,1 allo 0,4%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | non applicabile (classe I alla fase 1) |
+| Condotta suggerita (Fine 1997) | Trattamento ambulatoriale |
+
+Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.
+
+
+### 2
+
+Classe I: mortalità a 30 giorni dallo 0,1 allo 0,4%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | non applicabile (classe I alla fase 1) |
+| Condotta suggerita (Fine 1997) | Trattamento ambulatoriale |
+
+Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.
+
+
+### 3
+
+Classe II: mortalità a 30 giorni dallo 0,6 allo 0,7%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 70 |
+| Condotta suggerita (Fine 1997) | Trattamento ambulatoriale |
+
+Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.
+
+
+### 4
+
+Classe III: mortalità a 30 giorni dallo 0,9 al 2,8%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 82 |
+| Condotta suggerita (Fine 1997) | Ambulatoriale o breve ricovero in osservazione |
+
+Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.
+
+
+### 5
+
+Classe IV: mortalità a 30 giorni dall'8,2 al 9,3%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 125 |
+| Condotta suggerita (Fine 1997) | Ricovero ospedaliero |
+
+
+### 6
+
+Classe V: mortalità a 30 giorni dal 27,0 al 31,1%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Punti | 140 |
+| Condotta suggerita (Fine 1997) | Ricovero ospedaliero |
+

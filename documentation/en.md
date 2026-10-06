@@ -140,3 +140,75 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Class I: 30-day mortality of 0.1 to 0.4%
+
+| Result details | |
+| --- | --- |
+| Points | not applicable (class I by step 1) |
+| Suggested management (Fine 1997) | Outpatient treatment |
+
+PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.
+
+
+### 2
+
+Class I: 30-day mortality of 0.1 to 0.4%
+
+| Result details | |
+| --- | --- |
+| Points | not applicable (class I by step 1) |
+| Suggested management (Fine 1997) | Outpatient treatment |
+
+PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.
+
+
+### 3
+
+Class II: 30-day mortality of 0.6 to 0.7%
+
+| Result details | |
+| --- | --- |
+| Points | 70 |
+| Suggested management (Fine 1997) | Outpatient treatment |
+
+PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.
+
+
+### 4
+
+Class III: 30-day mortality of 0.9 to 2.8%
+
+| Result details | |
+| --- | --- |
+| Points | 82 |
+| Suggested management (Fine 1997) | Outpatient or short hospital stay for observation |
+
+PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.
+
+
+### 5
+
+Class IV: 30-day mortality of 8.2 to 9.3%
+
+| Result details | |
+| --- | --- |
+| Points | 125 |
+| Suggested management (Fine 1997) | Hospital admission |
+
+
+### 6
+
+Class V: 30-day mortality of 27,0 to 31,1%
+
+| Result details | |
+| --- | --- |
+| Points | 140 |
+| Suggested management (Fine 1997) | Hospital admission |
+

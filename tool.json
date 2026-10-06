@@ -303,7 +303,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "PSI/PORT/Fine 1997:regra classe I efase 2 pontuação I–V; sem CURB 65",
-    "implementationVersion": "psi-port@native-2026-10-03+8bf194e38b89",
+    "implementationVersion": "psi-port@native-2026-10-05+d996262013cf",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/8995086/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -562,7 +562,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a"
+      "implementationHash": "d996262013cfbcaf7129184a6f1b117a7cc7899369eb32a6f03e69c3c2e90738",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "psi-port@native-2026-10-03+8bf194e38b89",
+          "previousImplementationHash": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a",
+          "implementationHash": "d996262013cfbcaf7129184a6f1b117a7cc7899369eb32a6f03e69c3c2e90738",
+          "scientificBodySha256": "fd2eb5800330d795f681c77ba41179cd9c3405feff2b24685e20b7244758a04c",
+          "metadataContractHash": "7d2311887df11116de7b16c899e4723ac58b3f2cbf66ac71e6e9df488ea5cc7a",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O PSI/PORT foi desenvolvido para adultos com pneumonia adquirida na comunidade e risco de morte em 30 dias. Classes baixas não significam ausência de risco nem decisão automática de alta. Critérios de elegibilidade, definição de pneumonia e condições para manejo ambulatorial devem acompanhar o protocolo clínico.",
     "sourceLimitEvidence": {
@@ -581,20 +609,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/psi-port/calculator.js",
-    "bytes": 6497,
-    "sha256": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a"
+    "bytes": 6702,
+    "sha256": "d996262013cfbcaf7129184a6f1b117a7cc7899369eb32a6f03e69c3c2e90738"
   },
-  "sourceToolSha256": "df604c98277945ad0e8c54ccfdc78061a0a95dc7fb18811b22beb9010c27d8c0",
+  "sourceToolSha256": "c398b25652cbdb6bacb8eb396b3695e085502f7b4034812de4e84886f0f5fc19",
   "omittedFullReferenceBanks": [
     {
       "rows": 3,
       "sha256": "279d587647e969e74064bcf5b99b36c120a16ad93a6592d6b82d53b82865403c",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 3,
       "sha256": "279d587647e969e74064bcf5b99b36c120a16ad93a6592d6b82d53b82865403c",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

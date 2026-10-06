@@ -1,0 +1,2675 @@
+{
+  "id": "psi-port",
+  "implementationVersion": "psi-port@native-2026-10-05+d996262013cf",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "não se aplica (classe I pela etapa 1)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta sugerida (Fine 1997)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Tratamento ambulatorial",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe I: mortalidade em 30 dias de 0,1 a 0,4%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "não se aplica (classe I pela etapa 1)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta sugerida (Fine 1997)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Tratamento ambulatorial",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe I: mortalidade em 30 dias de 0,1 a 0,4%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "70",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta sugerida (Fine 1997)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Tratamento ambulatorial",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe II: mortalidade em 30 dias de 0,6 a 0,7%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "82",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta sugerida (Fine 1997)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Ambulatorial ou internação breve em observação",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe III: mortalidade em 30 dias de 0,9 a 2,8%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "125",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta sugerida (Fine 1997)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Internação hospitalar",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe IV: mortalidade em 30 dias de 8,2 a 9,3%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pontos",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "140",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta sugerida (Fine 1997)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Internação hospitalar",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe V: mortalidade em 30 dias de 27,0 a 31,1%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "not applicable (class I by step 1)",
+                "locale": "en",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Suggested management (Fine 1997)",
+                "locale": "en",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Outpatient treatment",
+                "locale": "en",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Class I: 30-day mortality of 0.1 to 0.4%",
+            "locale": "en",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.",
+            "locale": "en",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "not applicable (class I by step 1)",
+                "locale": "en",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Suggested management (Fine 1997)",
+                "locale": "en",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Outpatient treatment",
+                "locale": "en",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Class I: 30-day mortality of 0.1 to 0.4%",
+            "locale": "en",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.",
+            "locale": "en",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "en",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Suggested management (Fine 1997)",
+                "locale": "en",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Outpatient treatment",
+                "locale": "en",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Class II: 30-day mortality of 0.6 to 0.7%",
+            "locale": "en",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.",
+            "locale": "en",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "en",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Suggested management (Fine 1997)",
+                "locale": "en",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Outpatient or short hospital stay for observation",
+                "locale": "en",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Class III: 30-day mortality of 0.9 to 2.8%",
+            "locale": "en",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "PSI underestimates severity in young adults without comorbidities: hypoxemia, instability, or inability to take oral medications indicate hospitalization regardless of class.",
+            "locale": "en",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "en",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Suggested management (Fine 1997)",
+                "locale": "en",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Hospital admission",
+                "locale": "en",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Class IV: 30-day mortality of 8.2 to 9.3%",
+            "locale": "en",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "en",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "en",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Suggested management (Fine 1997)",
+                "locale": "en",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Hospital admission",
+                "locale": "en",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Class V: 30-day mortality of 27,0 to 31,1%",
+            "locale": "en",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "no aplica (clase I por la etapa 1)",
+                "locale": "es",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta sugerida (Fine 1997)",
+                "locale": "es",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Tratamiento ambulatorio",
+                "locale": "es",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Clase I: mortalidad a 30 días de 0,1 a 0,4%",
+            "locale": "es",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "El PSI subestima la gravedad en jóvenes sin comorbilidades: la hipoxemia, la inestabilidad o la imposibilidad de vía oral indican internación independientemente de la clase.",
+            "locale": "es",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "no aplica (clase I por la etapa 1)",
+                "locale": "es",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta sugerida (Fine 1997)",
+                "locale": "es",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Tratamiento ambulatorio",
+                "locale": "es",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Clase I: mortalidad a 30 días de 0,1 a 0,4%",
+            "locale": "es",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "El PSI subestima la gravedad en jóvenes sin comorbilidades: la hipoxemia, la inestabilidad o la imposibilidad de vía oral indican internación independientemente de la clase.",
+            "locale": "es",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "es",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta sugerida (Fine 1997)",
+                "locale": "es",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Tratamiento ambulatorio",
+                "locale": "es",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Clase II: mortalidad a 30 días de 0,6 a 0,7%",
+            "locale": "es",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "El PSI subestima la gravedad en jóvenes sin comorbilidades: la hipoxemia, la inestabilidad o la imposibilidad de vía oral indican internación independientemente de la clase.",
+            "locale": "es",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "es",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta sugerida (Fine 1997)",
+                "locale": "es",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ambulatorio o internación breve en observación",
+                "locale": "es",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Clase III: mortalidad a 30 días de 0,9 a 2,8%",
+            "locale": "es",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "El PSI subestima la gravedad en jóvenes sin comorbilidades: la hipoxemia, la inestabilidad o la imposibilidad de vía oral indican internación independientemente de la clase.",
+            "locale": "es",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "es",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta sugerida (Fine 1997)",
+                "locale": "es",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Internación hospitalaria",
+                "locale": "es",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Clase IV: mortalidad a 30 días de 8,2 a 9,3%",
+            "locale": "es",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Puntos",
+                "locale": "es",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "es",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta sugerida (Fine 1997)",
+                "locale": "es",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Internación hospitalaria",
+                "locale": "es",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Clase V: mortalidad a 30 días de 27,0 a 31,1%",
+            "locale": "es",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "sans objet (classe I à l’étape 1)",
+                "locale": "fr",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduite suggérée (Fine 1997)",
+                "locale": "fr",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Traitement ambulatoire",
+                "locale": "fr",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe I : mortalité à 30 jours de 0,1 à 0,4 %",
+            "locale": "fr",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.",
+            "locale": "fr",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "sans objet (classe I à l’étape 1)",
+                "locale": "fr",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduite suggérée (Fine 1997)",
+                "locale": "fr",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Traitement ambulatoire",
+                "locale": "fr",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe I : mortalité à 30 jours de 0,1 à 0,4 %",
+            "locale": "fr",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.",
+            "locale": "fr",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "fr",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduite suggérée (Fine 1997)",
+                "locale": "fr",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Traitement ambulatoire",
+                "locale": "fr",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe II : mortalité à 30 jours de 0,6 à 0,7 %",
+            "locale": "fr",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.",
+            "locale": "fr",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "fr",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduite suggérée (Fine 1997)",
+                "locale": "fr",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Prise en charge ambulatoire ou courte hospitalisation en observation",
+                "locale": "fr",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe III : mortalité à 30 jours de 0,9 à 2,8 %",
+            "locale": "fr",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.",
+            "locale": "fr",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "fr",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduite suggérée (Fine 1997)",
+                "locale": "fr",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Hospitalisation",
+                "locale": "fr",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe IV : mortalité à 30 jours de 8,2 à 9,3 %",
+            "locale": "fr",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Points",
+                "locale": "fr",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "fr",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduite suggérée (Fine 1997)",
+                "locale": "fr",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Hospitalisation",
+                "locale": "fr",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe V : mortalité à 30 jours de 27,0 à 31,1 %",
+            "locale": "fr",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "nicht anwendbar (Klasse I nach Schritt 1)",
+                "locale": "de",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorgeschlagenes Vorgehen (Fine 1997)",
+                "locale": "de",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ambulante Behandlung",
+                "locale": "de",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Klasse I: 30-Tage-Mortalität von 0,1 bis 0,4%",
+            "locale": "de",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.",
+            "locale": "de",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "nicht anwendbar (Klasse I nach Schritt 1)",
+                "locale": "de",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorgeschlagenes Vorgehen (Fine 1997)",
+                "locale": "de",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ambulante Behandlung",
+                "locale": "de",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Klasse I: 30-Tage-Mortalität von 0,1 bis 0,4%",
+            "locale": "de",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.",
+            "locale": "de",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "de",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorgeschlagenes Vorgehen (Fine 1997)",
+                "locale": "de",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ambulante Behandlung",
+                "locale": "de",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Klasse II: 30-Tage-Mortalität von 0,6 bis 0,7%",
+            "locale": "de",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.",
+            "locale": "de",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "de",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorgeschlagenes Vorgehen (Fine 1997)",
+                "locale": "de",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ambulant oder kurze stationäre Aufnahme zur Beobachtung",
+                "locale": "de",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Klasse III: 30-Tage-Mortalität von 0,9 bis 2,8%",
+            "locale": "de",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.",
+            "locale": "de",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "de",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorgeschlagenes Vorgehen (Fine 1997)",
+                "locale": "de",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Krankenhausaufnahme",
+                "locale": "de",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Klasse IV: 30-Tage-Mortalität von 8,2 bis 9,3%",
+            "locale": "de",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punkte",
+                "locale": "de",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "de",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Vorgeschlagenes Vorgehen (Fine 1997)",
+                "locale": "de",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Krankenhausaufnahme",
+                "locale": "de",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Klasse V: 30-Tage-Mortalität von 27,0 bis 31,1 %",
+            "locale": "de",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "non applicabile (classe I alla fase 1)",
+                "locale": "it",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta suggerita (Fine 1997)",
+                "locale": "it",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Trattamento ambulatoriale",
+                "locale": "it",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe I: mortalità a 30 giorni dallo 0,1 allo 0,4%",
+            "locale": "it",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.",
+            "locale": "it",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "non applicabile (classe I alla fase 1)",
+                "locale": "it",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta suggerita (Fine 1997)",
+                "locale": "it",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Trattamento ambulatoriale",
+                "locale": "it",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe I: mortalità a 30 giorni dallo 0,1 allo 0,4%",
+            "locale": "it",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.",
+            "locale": "it",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "it",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta suggerita (Fine 1997)",
+                "locale": "it",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Trattamento ambulatoriale",
+                "locale": "it",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe II: mortalità a 30 giorni dallo 0,6 allo 0,7%",
+            "locale": "it",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.",
+            "locale": "it",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "it",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta suggerita (Fine 1997)",
+                "locale": "it",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ambulatoriale o breve ricovero in osservazione",
+                "locale": "it",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe III: mortalità a 30 giorni dallo 0,9 al 2,8%",
+            "locale": "it",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "Il PSI sottostima la gravità nei giovani senza comorbidità: ipossiemia, instabilità o impossibilità alla via orale indicano ricovero indipendentemente dalla classe.",
+            "locale": "it",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "it",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta suggerita (Fine 1997)",
+                "locale": "it",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ricovero ospedaliero",
+                "locale": "it",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe IV: mortalità a 30 giorni dall'8,2 al 9,3%",
+            "locale": "it",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Punti",
+                "locale": "it",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "it",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta suggerita (Fine 1997)",
+                "locale": "it",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "Ricovero ospedaliero",
+                "locale": "it",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Classe V: mortalità a 30 giorni dal 27,0 al 31,1%",
+            "locale": "it",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "لا ينطبق (الفئة I حسب الخطوة 1)",
+                "locale": "ar",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المقترح (Fine 1997)",
+                "locale": "ar",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "علاج خارجي",
+                "locale": "ar",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الفئة I: وفيات خلال 30 يومًا من 0,1 إلى 0,4%",
+            "locale": "ar",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "يقلل PSI من تقدير الشدة لدى الشباب دون أمراض مرافقة: نقص الأكسجة، أو عدم الاستقرار، أو عدم القدرة على تناول الدواء فمويًا تشير إلى الحاجة إلى التنويم بغض النظر عن الفئة.",
+            "locale": "ar",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "لا ينطبق (الفئة I حسب الخطوة 1)",
+                "locale": "ar",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المقترح (Fine 1997)",
+                "locale": "ar",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "علاج خارجي",
+                "locale": "ar",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الفئة I: وفيات خلال 30 يومًا من 0,1 إلى 0,4%",
+            "locale": "ar",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "يقلل PSI من تقدير الشدة لدى الشباب دون أمراض مرافقة: نقص الأكسجة، أو عدم الاستقرار، أو عدم القدرة على تناول الدواء فمويًا تشير إلى الحاجة إلى التنويم بغض النظر عن الفئة.",
+            "locale": "ar",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "٧٠",
+                "locale": "ar",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المقترح (Fine 1997)",
+                "locale": "ar",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "علاج خارجي",
+                "locale": "ar",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الفئة II: وفيات خلال 30 يومًا من 0,6 إلى 0,7%",
+            "locale": "ar",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "يقلل PSI من تقدير الشدة لدى الشباب دون أمراض مرافقة: نقص الأكسجة، أو عدم الاستقرار، أو عدم القدرة على تناول الدواء فمويًا تشير إلى الحاجة إلى التنويم بغض النظر عن الفئة.",
+            "locale": "ar",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "٨٢",
+                "locale": "ar",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المقترح (Fine 1997)",
+                "locale": "ar",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "علاج خارجي أو إقامة قصيرة في المستشفى للملاحظة",
+                "locale": "ar",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الفئة III: وفيات خلال 30 يومًا من 0,9 إلى 2,8%",
+            "locale": "ar",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "يقلل PSI من تقدير الشدة لدى الشباب دون أمراض مرافقة: نقص الأكسجة، أو عدم الاستقرار، أو عدم القدرة على تناول الدواء فمويًا تشير إلى الحاجة إلى التنويم بغض النظر عن الفئة.",
+            "locale": "ar",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "١٢٥",
+                "locale": "ar",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المقترح (Fine 1997)",
+                "locale": "ar",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "الدخول إلى المستشفى",
+                "locale": "ar",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الفئة IV: وفيات خلال 30 يومًا من 8,2 إلى 9,3%",
+            "locale": "ar",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "النقاط",
+                "locale": "ar",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "١٤٠",
+                "locale": "ar",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المقترح (Fine 1997)",
+                "locale": "ar",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "الدخول إلى المستشفى",
+                "locale": "ar",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الفئة V: وفيات خلال 30 يومًا من 27,0 إلى 31,1%",
+            "locale": "ar",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "分数",
+                "locale": "zh",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "不适用（第 1 步为 I 级）",
+                "locale": "zh",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "建议处理（Fine 1997）",
+                "locale": "zh",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "门诊治疗",
+                "locale": "zh",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "I 级：30 天死亡率为 0.1% 至 0.4%",
+            "locale": "zh",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI 会低估无合并症年轻患者的严重程度：低氧血症、不稳定或无法经口用药均提示住院，不受分级影响。",
+            "locale": "zh",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "分数",
+                "locale": "zh",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "不适用（第 1 步为 I 级）",
+                "locale": "zh",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "建议处理（Fine 1997）",
+                "locale": "zh",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "门诊治疗",
+                "locale": "zh",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "I 级：30 天死亡率为 0.1% 至 0.4%",
+            "locale": "zh",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI 会低估无合并症年轻患者的严重程度：低氧血症、不稳定或无法经口用药均提示住院，不受分级影响。",
+            "locale": "zh",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "分数",
+                "locale": "zh",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "zh",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "建议处理（Fine 1997）",
+                "locale": "zh",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "门诊治疗",
+                "locale": "zh",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "II 级：30 天死亡率为 0.6% 至 0.7%",
+            "locale": "zh",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "PSI 会低估无合并症年轻患者的严重程度：低氧血症、不稳定或无法经口用药均提示住院，不受分级影响。",
+            "locale": "zh",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "分数",
+                "locale": "zh",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "zh",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "建议处理（Fine 1997）",
+                "locale": "zh",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "门诊或短期住院观察",
+                "locale": "zh",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "III 级：30 天死亡率为 0.9% 至 2.8%",
+            "locale": "zh",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "PSI 会低估无合并症年轻患者的严重程度：低氧血症、不稳定或无法经口用药均提示住院，不受分级影响。",
+            "locale": "zh",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "分数",
+                "locale": "zh",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "zh",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "建议处理（Fine 1997）",
+                "locale": "zh",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "住院",
+                "locale": "zh",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "IV 级：30 天死亡率为 8.2% 至 9.3%",
+            "locale": "zh",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "分数",
+                "locale": "zh",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "zh",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "建议处理（Fine 1997）",
+                "locale": "zh",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "住院",
+                "locale": "zh",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "V级：30天死亡率为27,0至31,1%",
+            "locale": "zh",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ポイント",
+                "locale": "ja",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "該当なし（ステップ1でクラスI）",
+                "locale": "ja",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "提案された対応（Fine 1997）",
+                "locale": "ja",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "外来治療",
+                "locale": "ja",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "クラス I：30日死亡率 0.1～0.4%",
+            "locale": "ja",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI は併存疾患のない若年者では重症度を過小評価する。低酸素血症、不安定性、または経口投与不能は、クラスにかかわらず入院を示す。",
+            "locale": "ja",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ポイント",
+                "locale": "ja",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "該当なし（ステップ1でクラスI）",
+                "locale": "ja",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "提案された対応（Fine 1997）",
+                "locale": "ja",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "外来治療",
+                "locale": "ja",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "クラス I：30日死亡率 0.1～0.4%",
+            "locale": "ja",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI は併存疾患のない若年者では重症度を過小評価する。低酸素血症、不安定性、または経口投与不能は、クラスにかかわらず入院を示す。",
+            "locale": "ja",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ポイント",
+                "locale": "ja",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "ja",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "提案された対応（Fine 1997）",
+                "locale": "ja",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "外来治療",
+                "locale": "ja",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "クラス II：30日死亡率 0.6～0.7%",
+            "locale": "ja",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "PSI は併存疾患のない若年者では重症度を過小評価する。低酸素血症、不安定性、または経口投与不能は、クラスにかかわらず入院を示す。",
+            "locale": "ja",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ポイント",
+                "locale": "ja",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "ja",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "提案された対応（Fine 1997）",
+                "locale": "ja",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "外来または短期入院で観察",
+                "locale": "ja",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "クラス III：30日死亡率 0.9～2.8%",
+            "locale": "ja",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "PSI は併存疾患のない若年者では重症度を過小評価する。低酸素血症、不安定性、または経口投与不能は、クラスにかかわらず入院を示す。",
+            "locale": "ja",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ポイント",
+                "locale": "ja",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "ja",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "提案された対応（Fine 1997）",
+                "locale": "ja",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "入院",
+                "locale": "ja",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "クラス IV：30日死亡率 8.2～9.3%",
+            "locale": "ja",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "ポイント",
+                "locale": "ja",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "ja",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "提案された対応（Fine 1997）",
+                "locale": "ja",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "入院",
+                "locale": "ja",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "クラスV：30日死亡率は27,0～31,1%",
+            "locale": "ja",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Homem de 40 anos sem achados: classe I",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "लागू नहीं (चरण 1 के अनुसार कक्षा I)",
+                "locale": "hi",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सुझाया गया प्रबंधन (Fine 1997)",
+                "locale": "hi",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "बाह्य रोगी उपचार",
+                "locale": "hi",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "कक्षा I: 30-दिवसीय मृत्यु दर 0.1 से 0.4%",
+            "locale": "hi",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI सह-रोगों के बिना युवाओं में गंभीरता को कम आँकता है: हाइपोक्सेमिया, अस्थिरता, या मौखिक रूप से दवा लेने में असमर्थता, वर्ग की परवाह किए बिना अस्पताल में भर्ती का संकेत देती है।",
+            "locale": "hi",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "लागू नहीं (चरण 1 के अनुसार कक्षा I)",
+                "locale": "hi",
+                "template": "documented-authored-e4db2894ff9da1d3d63a"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सुझाया गया प्रबंधन (Fine 1997)",
+                "locale": "hi",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "बाह्य रोगी उपचार",
+                "locale": "hi",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "कक्षा I: 30-दिवसीय मृत्यु दर 0.1 से 0.4%",
+            "locale": "hi",
+            "template": "documented-authored-325b20e9f6d00e81727e"
+          },
+          "note": {
+            "text": "PSI सह-रोगों के बिना युवाओं में गंभीरता को कम आँकता है: हाइपोक्सेमिया, अस्थिरता, या मौखिक रूप से दवा लेने में असमर्थता, वर्ग की परवाह किए बिना अस्पताल में भर्ती का संकेत देती है।",
+            "locale": "hi",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "70",
+                "locale": "hi",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सुझाया गया प्रबंधन (Fine 1997)",
+                "locale": "hi",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "बाह्य रोगी उपचार",
+                "locale": "hi",
+                "template": "documented-authored-94268e52b81b4366c27c"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "कक्षा II: 30-दिवसीय मृत्यु दर 0.6 से 0.7%",
+            "locale": "hi",
+            "template": "documented-authored-076e490f6f544028815a"
+          },
+          "note": {
+            "text": "PSI सह-रोगों के बिना युवाओं में गंभीरता को कम आँकता है: हाइपोक्सेमिया, अस्थिरता, या मौखिक रूप से दवा लेने में असमर्थता, वर्ग की परवाह किए बिना अस्पताल में भर्ती का संकेत देती है।",
+            "locale": "hi",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "82",
+                "locale": "hi",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  82
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सुझाया गया प्रबंधन (Fine 1997)",
+                "locale": "hi",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "बाह्य रोगी प्रबंधन या अवलोकन के लिए अल्पकालिक भर्ती",
+                "locale": "hi",
+                "template": "documented-authored-06362b81e04de8028ed3"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "कक्षा III: 30-दिवसीय मृत्यु दर 0.9 से 2.8%",
+            "locale": "hi",
+            "template": "documented-authored-4a8b3d2124beca78874b"
+          },
+          "note": {
+            "text": "PSI सह-रोगों के बिना युवाओं में गंभीरता को कम आँकता है: हाइपोक्सेमिया, अस्थिरता, या मौखिक रूप से दवा लेने में असमर्थता, वर्ग की परवाह किए बिना अस्पताल में भर्ती का संकेत देती है।",
+            "locale": "hi",
+            "template": "documented-authored-202cf10035069da11048"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "125",
+                "locale": "hi",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  125
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सुझाया गया प्रबंधन (Fine 1997)",
+                "locale": "hi",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "अस्पताल में भर्ती",
+                "locale": "hi",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "कक्षा IV: 30-दिवसीय मृत्यु दर 8.2 से 9.3%",
+            "locale": "hi",
+            "template": "documented-authored-54aeacc8878ae03243ab"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अंक",
+                "locale": "hi",
+                "template": "documented-authored-70eebbb1d24196d60e9e"
+              },
+              "value": {
+                "text": "140",
+                "locale": "hi",
+                "template": "documented-authored-25cc39cf868c53544bd2",
+                "sourceNumbers": [
+                  140
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सुझाया गया प्रबंधन (Fine 1997)",
+                "locale": "hi",
+                "template": "documented-authored-d67a4592f7d4936294b5"
+              },
+              "value": {
+                "text": "अस्पताल में भर्ती",
+                "locale": "hi",
+                "template": "documented-authored-78b51fedc9bd6c090d19"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "श्रेणी V: 30 दिन की मृत्यु दर 27,0 से 31,1%",
+            "locale": "hi",
+            "template": "documented-authored-1829819ea02196c64bff"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "psi-port",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "99f9d6c09a73112e00513351f7a200936cc2b39a",
+    "oldEngineSha256": "8bf194e38b89724680d51b94a8185d3f7427d25a6ec13c32b15df9244527ef1a",
+    "currentEngineSha256": "d996262013cfbcaf7129184a6f1b117a7cc7899369eb32a6f03e69c3c2e90738"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Homem de 40 anos sem achados: classe I",
+      "input": {
+        "sexo": "M",
+        "idade": 40,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "publicOutput": {
+        "id": "psi-port",
+        "main": [
+          "Classe I",
+          "sem pontuação (critérios da classe I)"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 0,
+          "cls": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cls": 1
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Classe I",
+          "sem pontuação (critérios da classe I)"
+        ],
+        "label": "PSI/PORT",
+        "level": "low",
+        "verdict": "Classe I: mortalidade em 30 dias de 0,1 a 0,4%",
+        "rows": [
+          [
+            "Pontos",
+            "não se aplica (classe I pela etapa 1)"
+          ],
+          [
+            "Conduta sugerida (Fine 1997)",
+            "Tratamento ambulatorial"
+          ]
+        ],
+        "note": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+        "raw": {
+          "score": 0,
+          "cls": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Homem de 50 anos sem achados: classe I (limite da etapa 1)",
+      "input": {
+        "sexo": "M",
+        "idade": 50,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "publicOutput": {
+        "id": "psi-port",
+        "main": [
+          "Classe I",
+          "sem pontuação (critérios da classe I)"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 0,
+          "cls": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cls": 1
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Classe I",
+          "sem pontuação (critérios da classe I)"
+        ],
+        "label": "PSI/PORT",
+        "level": "low",
+        "verdict": "Classe I: mortalidade em 30 dias de 0,1 a 0,4%",
+        "rows": [
+          [
+            "Pontos",
+            "não se aplica (classe I pela etapa 1)"
+          ],
+          [
+            "Conduta sugerida (Fine 1997)",
+            "Tratamento ambulatorial"
+          ]
+        ],
+        "note": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+        "raw": {
+          "score": 0,
+          "cls": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Mulher de 70 anos com ICC: 60 + 10 = 70, classe II",
+      "input": {
+        "sexo": "F",
+        "idade": 70,
+        "icc": true,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "publicOutput": {
+        "id": "psi-port",
+        "main": [
+          "Classe II",
+          "70 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 70,
+          "cls": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 70,
+          "cls": 2
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Classe II",
+          "70 pontos"
+        ],
+        "label": "PSI/PORT",
+        "level": "low",
+        "verdict": "Classe II: mortalidade em 30 dias de 0,6 a 0,7%",
+        "rows": [
+          [
+            "Pontos",
+            "70"
+          ],
+          [
+            "Conduta sugerida (Fine 1997)",
+            "Tratamento ambulatorial"
+          ]
+        ],
+        "note": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+        "raw": {
+          "score": 70,
+          "cls": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Homem de 72 anos com derrame pleural: 82, classe III",
+      "input": {
+        "sexo": "M",
+        "idade": 72,
+        "derrame": true,
+        "casa": false,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false
+      },
+      "publicOutput": {
+        "id": "psi-port",
+        "main": [
+          "Classe III",
+          "82 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 82,
+          "cls": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 82,
+          "cls": 3
+        },
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Classe III",
+          "82 pontos"
+        ],
+        "label": "PSI/PORT",
+        "level": "mid",
+        "verdict": "Classe III: mortalidade em 30 dias de 0,9 a 2,8%",
+        "rows": [
+          [
+            "Pontos",
+            "82"
+          ],
+          [
+            "Conduta sugerida (Fine 1997)",
+            "Ambulatorial ou internação breve em observação"
+          ]
+        ],
+        "note": "O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.",
+        "raw": {
+          "score": 82,
+          "cls": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Homem de 75 anos, neoplasia e ureia elevada: 125, classe IV",
+      "input": {
+        "sexo": "M",
+        "idade": 75,
+        "neoplasia": true,
+        "ureia": true,
+        "casa": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "confusao": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ph": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "publicOutput": {
+        "id": "psi-port",
+        "main": [
+          "Classe IV",
+          "125 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 125,
+          "cls": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 125,
+          "cls": 4
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Classe IV",
+          "125 pontos"
+        ],
+        "label": "PSI/PORT",
+        "level": "high",
+        "verdict": "Classe IV: mortalidade em 30 dias de 8,2 a 9,3%",
+        "rows": [
+          [
+            "Pontos",
+            "125"
+          ],
+          [
+            "Conduta sugerida (Fine 1997)",
+            "Internação hospitalar"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 125,
+          "cls": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 5,
+      "name": "Homem de 80 anos, institucionalizado, confuso, pH 7,30: 140, classe V",
+      "input": {
+        "sexo": "M",
+        "idade": 80,
+        "casa": true,
+        "confusao": true,
+        "ph": true,
+        "neoplasia": false,
+        "hepatica": false,
+        "icc": false,
+        "avc": false,
+        "renal": false,
+        "fr": false,
+        "pas": false,
+        "temp": false,
+        "fc": false,
+        "ureia": false,
+        "sodio": false,
+        "glicose": false,
+        "ht": false,
+        "pao2": false,
+        "derrame": false
+      },
+      "publicOutput": {
+        "id": "psi-port",
+        "main": [
+          "Classe V",
+          "140 pontos"
+        ],
+        "label": "PSI/PORT",
+        "raw": {
+          "score": 140,
+          "cls": 5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 140,
+          "cls": 5
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "Classe V",
+          "140 pontos"
+        ],
+        "label": "PSI/PORT",
+        "level": "high",
+        "verdict": "Classe V: mortalidade em 30 dias de 27,0 a 31,1%",
+        "rows": [
+          [
+            "Pontos",
+            "140"
+          ],
+          [
+            "Conduta sugerida (Fine 1997)",
+            "Internação hospitalar"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "score": 140,
+          "cls": 5
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

@@ -140,3 +140,75 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Klasse I: 30-Tage-Mortalität von 0,1 bis 0,4%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | nicht anwendbar (Klasse I nach Schritt 1) |
+| Vorgeschlagenes Vorgehen (Fine 1997) | Ambulante Behandlung |
+
+Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.
+
+
+### 2
+
+Klasse I: 30-Tage-Mortalität von 0,1 bis 0,4%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | nicht anwendbar (Klasse I nach Schritt 1) |
+| Vorgeschlagenes Vorgehen (Fine 1997) | Ambulante Behandlung |
+
+Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.
+
+
+### 3
+
+Klasse II: 30-Tage-Mortalität von 0,6 bis 0,7%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 70 |
+| Vorgeschlagenes Vorgehen (Fine 1997) | Ambulante Behandlung |
+
+Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.
+
+
+### 4
+
+Klasse III: 30-Tage-Mortalität von 0,9 bis 2,8%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 82 |
+| Vorgeschlagenes Vorgehen (Fine 1997) | Ambulant oder kurze stationäre Aufnahme zur Beobachtung |
+
+Der PSI unterschätzt die Schwere bei jungen Erwachsenen ohne Komorbiditäten: Hypoxämie, Instabilität oder Unfähigkeit zur oralen Einnahme sprechen unabhängig von der Klasse für eine Hospitalisierung.
+
+
+### 5
+
+Klasse IV: 30-Tage-Mortalität von 8,2 bis 9,3%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 125 |
+| Vorgeschlagenes Vorgehen (Fine 1997) | Krankenhausaufnahme |
+
+
+### 6
+
+Klasse V: 30-Tage-Mortalität von 27,0 bis 31,1 %
+
+| Ergebnisdetails | |
+| --- | --- |
+| Punkte | 140 |
+| Vorgeschlagenes Vorgehen (Fine 1997) | Krankenhausaufnahme |
+

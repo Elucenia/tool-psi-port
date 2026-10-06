@@ -140,3 +140,75 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Classe I: mortalidade em 30 dias de 0,1 a 0,4%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | não se aplica (classe I pela etapa 1) |
+| Conduta sugerida (Fine 1997) | Tratamento ambulatorial |
+
+O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.
+
+
+### 2
+
+Classe I: mortalidade em 30 dias de 0,1 a 0,4%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | não se aplica (classe I pela etapa 1) |
+| Conduta sugerida (Fine 1997) | Tratamento ambulatorial |
+
+O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.
+
+
+### 3
+
+Classe II: mortalidade em 30 dias de 0,6 a 0,7%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 70 |
+| Conduta sugerida (Fine 1997) | Tratamento ambulatorial |
+
+O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.
+
+
+### 4
+
+Classe III: mortalidade em 30 dias de 0,9 a 2,8%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 82 |
+| Conduta sugerida (Fine 1997) | Ambulatorial ou internação breve em observação |
+
+O PSI subestima a gravidade em jovens sem comorbidades: hipoxemia, instabilidade ou impossibilidade de via oral indicam internação independentemente da classe.
+
+
+### 5
+
+Classe IV: mortalidade em 30 dias de 8,2 a 9,3%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 125 |
+| Conduta sugerida (Fine 1997) | Internação hospitalar |
+
+
+### 6
+
+Classe V: mortalidade em 30 dias de 27,0 a 31,1%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Pontos | 140 |
+| Conduta sugerida (Fine 1997) | Internação hospitalar |
+

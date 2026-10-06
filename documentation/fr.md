@@ -140,3 +140,75 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Classe I : mortalité à 30 jours de 0,1 à 0,4 %
+
+| Détails du résultat | |
+| --- | --- |
+| Points | sans objet (classe I à l’étape 1) |
+| Conduite suggérée (Fine 1997) | Traitement ambulatoire |
+
+Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.
+
+
+### 2
+
+Classe I : mortalité à 30 jours de 0,1 à 0,4 %
+
+| Détails du résultat | |
+| --- | --- |
+| Points | sans objet (classe I à l’étape 1) |
+| Conduite suggérée (Fine 1997) | Traitement ambulatoire |
+
+Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.
+
+
+### 3
+
+Classe II : mortalité à 30 jours de 0,6 à 0,7 %
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 70 |
+| Conduite suggérée (Fine 1997) | Traitement ambulatoire |
+
+Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.
+
+
+### 4
+
+Classe III : mortalité à 30 jours de 0,9 à 2,8 %
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 82 |
+| Conduite suggérée (Fine 1997) | Prise en charge ambulatoire ou courte hospitalisation en observation |
+
+Le PSI sous-estime la gravité chez les jeunes sans comorbidités : l’hypoxémie, l’instabilité ou l’impossibilité de voie orale indiquent une hospitalisation indépendamment de la classe.
+
+
+### 5
+
+Classe IV : mortalité à 30 jours de 8,2 à 9,3 %
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 125 |
+| Conduite suggérée (Fine 1997) | Hospitalisation |
+
+
+### 6
+
+Classe V : mortalité à 30 jours de 27,0 à 31,1 %
+
+| Détails du résultat | |
+| --- | --- |
+| Points | 140 |
+| Conduite suggérée (Fine 1997) | Hospitalisation |
+
